@@ -3,8 +3,8 @@
   justify-content: space-between;
   align-items: center;
   position: relative;
-  padding: 10px 20px;
-  background-color: #f8f9fa;
+  padding: 30px 30px;
+  background-color: transparent;
 }
 
 .navbar-left-link {
@@ -14,6 +14,15 @@
 .navbar-left {
   display: flex;
   align-items: center;
+  width: auto; 
+  height: auto;
+  z-index: 1;
+}
+
+.navbar-left img {
+  width: 100%; 
+  height: auto; 
+  max-width: 300px;
 }
 
 .navbar-right ul {
