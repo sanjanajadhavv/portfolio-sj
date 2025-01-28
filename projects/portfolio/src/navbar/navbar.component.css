@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   padding: 10px 20px;
   background-color: #f8f9fa;
 }
@@ -15,10 +16,6 @@
   align-items: center;
 }
 
-.navbar-smiley {
-  margin-right: 10px;
-}
-
 .navbar-right ul {
   list-style: none;
   display: flex;
@@ -28,5 +25,5 @@
 .navbar-right a {
   text-decoration: none;
   color: black;
-  font-family: "Playfair Display", serif;
+  cursor: pointer;
 }
