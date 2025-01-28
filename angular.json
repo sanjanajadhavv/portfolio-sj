@@ -27,8 +27,7 @@
               }
             ],
             "styles": [
-              "projects/portfolio/src/styles.css",
-              "node_modules/font-awesome/css/font-awesome.min.css"
+              "projects/portfolio/src/styles.css"
             ],
             "scripts": [],
             "server": "projects/portfolio/src/main.server.ts",
